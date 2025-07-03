@@ -1,13 +1,15 @@
 {
-  "name": "base44-app",
+  "name": "herbarioapp",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@base44/sdk": "^0.1.2",
@@ -44,6 +46,7 @@
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.5.2",
     "framer-motion": "^12.4.7",
+    "gh-pages": "^6.0.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.475.0",
     "next-themes": "^0.4.4",
@@ -52,7 +55,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.54.2",
     "react-resizable-panels": "^2.1.7",
-    "react-router-dom": "^7.2.0",
+    "react-router-dom": "^6.23.0",
     "recharts": "^2.15.1",
     "sonner": "^2.0.1",
     "tailwind-merge": "^3.0.2",
