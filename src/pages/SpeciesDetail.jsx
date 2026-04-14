@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { speciesData } from "../components/data/speciesData"; // Corrected path
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { ArrowLeft, MapPin, Mountain, Leaf, AlertCircle } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -11,12 +11,13 @@ import SpeciesInfo from "../components/species/SpeciesInfo";
 
 export default function SpeciesDetail() {
   const [species, setSpecies] = useState(null);
+  const location = useLocation();
 
   useEffect(() => {
     // Scroll to top when page loads
     window.scrollTo(0, 0);
     
-    const urlParams = new URLSearchParams(window.location.search);
+    const urlParams = new URLSearchParams(location.search);
     const speciesId = urlParams.get('id');
     
     if (speciesId) {
