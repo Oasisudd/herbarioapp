@@ -1,15 +1,4 @@
-
-// ====================================================================================
-//  ARCHIVO CENTRAL DE ESPECIES DEL HERBARIO
-// ====================================================================================
-// Para agregar una nueva especie, sigue estos pasos:
-// 1. Copia uno de los bloques de código de una especie (desde `{` hasta `},`).
-// 2. Pega el bloque copiado al final de la lista, justo antes del `];` final.
-// 3. Modifica la información con los datos de tu nueva especie.
-//
-// ¡IMPORTANTE!
-// - El campo `id` debe ser único.
-// - Sube las imágenes a la plataforma y pega aquí los enlaces generados.
+// ARCHIVO CENTRAL DE ESPECIES DEL HERBARIO (actualizado desde base real)
 // ====================================================================================
 
 export const speciesData = [
@@ -18,59 +7,263 @@ export const speciesData = [
     scientific_name: "Triglochin concinna Burtt Davy",
     common_name: "",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    main_image: "https://oasisudd.github.io/herbario/Triglochin/Triglochin.JPG", // <-- Pega aquí el enlace de la imagen principal subida
+    main_image: "https://oasisudd.github.io/herbario/Triglochin/Triglochin.JPG",
     gallery_images: [
-      "https://oasisudd.github.io/herbario/Triglochin/Triglochin2.png", // <-- Pega aquí el enlace de la primera imagen de galería
-      "https://oasisudd.github.io/herbario/Triglochin/Triglochin3.png"  // <-- Pega aquí el enlace de la segunda imagen de galería
+      "https://oasisudd.github.io/herbario/Triglochin/Triglochin2.png",
+      "https://oasisudd.github.io/herbario/Triglochin/Triglochin3.png"
     ],
     family: "Juncaginaceae",
+    genero: "Triglochin",
+    nombre_colla: "",
+    condicion: "",
     habitat: "",
     altitude: "",
-    status: "uncertain",
+    status: "",
     habits: "Hierba perenne",
     origin: "Nativa",
     flowering_season: "",
     conservation_status: "",
-    uses: ""
+    uses: "",
+    mapa: ""
   },
   {
-    id: "nototriche-compacta",
+    id: "nototriche-compacta-a-gray-aw-hill",
     scientific_name: "Nototriche compacta (A. Gray) A.W. Hill",
     common_name: "Mostaza",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    main_image: "https://oasisudd.github.io/herbario/Nototriche/Nototriche.png", // <-- Pega aquí el enlace de la imagen principal subida
+    main_image: "https://oasisudd.github.io/herbario/Nototriche/Nototriche.png",
     gallery_images: [
-      "https://oasisudd.github.io/herbario/Nototriche/Nototriche2.png", // <-- Pega aquí el enlace de la primera imagen de galería
-      "https://oasisudd.github.io/herbario/Nototriche/Nototriche3.png"  // <-- Pega aquí el enlace de la segunda imagen de galería
+      "https://oasisudd.github.io/herbario/Nototriche/Nototriche2.png",
+      "https://oasisudd.github.io/herbario/Nototriche/Nototriche3.png"
     ],
     family: "Malvaceae",
+    genero: "Nototriche",
+    nombre_colla: "",
+    condicion: "",
     habitat: "",
     altitude: "",
-    status: "uncertain",
+    status: "",
     habits: "Hierba perenne",
     origin: "Nativa",
     flowering_season: "",
     conservation_status: "",
-    uses: ""
+    uses: "",
+    mapa: ""
   },
   {
-    id: "gamocarpha-compacta",
+    id: "gamocarpha-compacta-phil-s-denham--pozner",
     scientific_name: "Gamocarpha compacta (Phil.) S. Denham & Pozner",
     common_name: "",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    main_image: "https://oasisudd.github.io/herbario/Gamocarpha/Gamocarpha.png", // <-- Pega aquí el enlace de la imagen principal subida
+    main_image: "https://oasisudd.github.io/herbario/Gamocarpha/Gamocarpha.png",
     gallery_images: [
-      "https://oasisudd.github.io/herbario/Gamocarpha/Gamocarpha2.jpg", // <-- Pega aquí el enlace de la primera imagen de galería
-      "https://oasisudd.github.io/herbario/Gamocarpha/Gamocarpha3.jpg"  // <-- Pega aquí el enlace de la segunda imagen de galería
+      "https://oasisudd.github.io/herbario/Gamocarpha/Gamocarpha2.jpg",
+      "https://oasisudd.github.io/herbario/Gamocarpha/Gamocarpha3.jpg"
     ],
     family: "Calyceraceae",
+    genero: "Gamocarpha",
+    nombre_colla: "",
+    condicion: "",
     habitat: "",
     altitude: "",
-    status: "uncertain",
+    status: "",
     habits: "Hierba bienal o perenne",
     origin: "Nativa",
     flowering_season: "",
     conservation_status: "",
-    uses: ""
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "menonvillea-cuneata-gillies--hook-rollins",
+    scientific_name: "Menonvillea cuneata (Gillies & Hook.) Rollins",
+    common_name: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Menonvillea/Menonvillea.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Menonvillea/Menonvillea2.png",
+      "https://oasisudd.github.io/herbario/Menonvillea/Menonvillea3.png"
+    ],
+    family: "Brassicaceae",
+    genero: "Menonvillea",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "",
+    altitude: "",
+    status: "",
+    habits: "Hierba perenne",
+    origin: "Nativa",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "gayophytum-micranthum-hook--arn",
+    scientific_name: "Gayophytum micranthum Hook. & Arn.",
+    common_name: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Gayophytum/Gayophytum.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Gayophytum/Gayophytum2.png",
+      "https://oasisudd.github.io/herbario/Gayophytum/Gayophytum3.png"
+    ],
+    family: "Onagraceae",
+    genero: "Gayophytum",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "",
+    altitude: "",
+    status: "",
+    habits: "Hierba anual",
+    origin: "Nativa",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "kurzamra-pulchella-clos-kuntze",
+    scientific_name: "Kurzamra pulchella (Clos) Kuntze",
+    common_name: "Poleo de cordillera",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Kurzamra/Kurzamra.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Kurzamra/Kurzamra2.png",
+      "https://oasisudd.github.io/herbario/Kurzamra/Kurzamra3.png"
+    ],
+    family: "Lamiaceae",
+    genero: "Kurzamra",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "",
+    altitude: "",
+    status: "",
+    habits: "Hierba perenne",
+    origin: "Nativa",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "erythranthe-depressa-phil-gl-nesom",
+    scientific_name: "Erythranthe depressa (Phil.) G.L. Nesom",
+    common_name: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Erythranthe/Erythranthe.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Erythranthe/Erythranthe2.png",
+      "https://oasisudd.github.io/herbario/Erythranthe/Erythranthe3.png"
+    ],
+    family: "Phrymaceae",
+    genero: "Erythranthe",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "Bofedal",
+    altitude: "",
+    status: "",
+    habits: "Hierba anual o perenne",
+    origin: "Endémica",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "cristaria-andicola-gay",
+    scientific_name: "Cristaria andicola Gay",
+    common_name: "Malvilla, Primavera",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Cristaria/Cristaria.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Cristaria/Cristaria2.png",
+      "https://oasisudd.github.io/herbario/Cristaria/Cristaria3.png"
+    ],
+    family: "Malvaceae",
+    genero: "Cristaria",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "",
+    altitude: "",
+    status: "",
+    habits: "Hierba perenne",
+    origin: "Nativa",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "calceolaria-pinifolia-cav",
+    scientific_name: "Calceolaria pinifolia Cav.",
+    common_name: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Calceolaria/Calceolaria.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Calceolaria/Calceolaria2.png",
+      "https://oasisudd.github.io/herbario/Calceolaria/Calceolaria3.png"
+    ],
+    family: "Calceolariaceae",
+    genero: "Calceolaria",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "",
+    altitude: "",
+    status: "",
+    habits: "Hierba perenne",
+    origin: "Nativa",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "calandrinia-compacta-barneoud",
+    scientific_name: "Calandrinia compacta Barnéoud",
+    common_name: "",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Calandrinia/Calandrinia.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Calandrinia/Calandrinia2.png",
+      "https://oasisudd.github.io/herbario/Calandrinia/Calandrinia3.png"
+    ],
+    family: "Montiaceae",
+    genero: "Calandrinia",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "Bofedal",
+    altitude: "",
+    status: "",
+    habits: "Hierba perenne",
+    origin: "Nativa",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
+  },
+  {
+    id: "azorella-cryptantha-clos-reiche",
+    scientific_name: "Azorella cryptantha (Clos) Reiche",
+    common_name: "LLareta",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    main_image: "https://oasisudd.github.io/herbario/Azorella/Azorella.png",
+    gallery_images: [
+      "https://oasisudd.github.io/herbario/Azorella/Azorella2.png",
+      "https://oasisudd.github.io/herbario/Azorella/Azorella3.png"
+    ],
+    family: "Apiaceae",
+    genero: "Azorella",
+    nombre_colla: "",
+    condicion: "",
+    habitat: "",
+    altitude: "",
+    status: "",
+    habits: "Subarbusto",
+    origin: "Nativa",
+    flowering_season: "",
+    conservation_status: "",
+    uses: "",
+    mapa: ""
   }
 ];

@@ -1,20 +1,7 @@
-# Base44 App
+# Herbario Digital OASIS
 
+Repositorio independiente del Herbario Digital de los Salares Andinos.
 
-This app was created automatically by Base44.
-It's a Vite+React app that communicates with the Base44 API.
+## Despliegue
 
-## Running the app
-
-```bash
-npm install
-npm run dev
-```
-
-## Building the app
-
-```bash
-npm run build
-```
-
-For more information and support, please contact Base44 support at app@base44.com.
+La aplicación se despliega automáticamente a GitHub Pages en la rama `gh-pages` con cada push a la rama `main` gracias a GitHub Actions.
